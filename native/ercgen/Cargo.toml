@@ -1,0 +1,14 @@
+[package]
+name = "ercgen"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "ercgen"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.37.0"
+rcgen = { version = "0.14.5", features = ["x509-parser"] }
+rustls-pki-types = { version = "1.13.0", features = ["std"] }

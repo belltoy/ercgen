@@ -1,0 +1,15 @@
+{application, ercgen,
+ [{description, "An X.509 certificate generation utility in Rust NIF"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    public_key
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
