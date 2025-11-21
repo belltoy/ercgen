@@ -23,7 +23,7 @@
       "src/cargo.hrl",
       "priv/ercgen.app.src"
   ]},
-  {licenses, ["Apache 2.0"]},
+  {licenses, ["Apache-2.0"]},
   {links, [
       {"Github", "https://github.com/belltoy/ercgen"}
   ]}
