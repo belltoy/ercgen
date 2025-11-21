@@ -13,6 +13,7 @@
   {files, [
       "README.md",
       "LICENSE",
+      "rebar.config",
       "native/ercgen/Cargo.toml",
       "native/ercgen/Cargo.lock",
       "native/ercgen/.cargo/config.toml",
