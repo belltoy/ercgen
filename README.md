@@ -1,7 +1,8 @@
-ercgen
-=====
+# ercgen
 
 An X.509 certificate generation utility for Erlang in Rust NIF.
+
+It use [`rcgen`](https://crates.io/crates/rcgen) crate internally to provide X.509 certificate generation functionalities.
 
 ## Usage
 

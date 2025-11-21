@@ -10,6 +10,21 @@
   {env,[]},
   {modules, []},
 
+  {files, [
+      "README.md",
+      "LICENSE",
+      "native/ercgen/Cargo.toml",
+      "native/ercgen/Cargo.lock",
+      "native/ercgen/.cargo/config.toml",
+      "native/ercgen/src/lib.rs",
+      "native/ercgen/src/error.rs",
+      "native/ercgen/src/certificate.rs",
+      "src/ercgen.erl",
+      "src/cargo.hrl",
+      "priv/ercgen.app.src"
+  ]},
   {licenses, ["Apache 2.0"]},
-  {links, []}
+  {links, [
+      {"Github", "https://github.com/belltoy/ercgen"}
+  ]}
  ]}.
